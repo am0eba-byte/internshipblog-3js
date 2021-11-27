@@ -2,7 +2,8 @@
 body {
     /* background-image: linear-gradient(to right,#363237, #2d4262, #73605b, #2d4262, #363237); */
     color: white;
-    flex: 1;
+    display: grid;
+justify-content: center;
   margin: 10vw;
     }
     
@@ -20,7 +21,7 @@ body {
       
       main {
         position:absolute;
-        width: 100vw;
+       /* width: 100vw;*/
         color: white;
         z-index: 99;
         position: absolute;
