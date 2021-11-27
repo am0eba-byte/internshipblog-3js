@@ -520,9 +520,16 @@
                 <div class="blogpost">
                     <p class="span">Week of 11/23-11/24 - Ninth Week</p>
                     <p class="post">
-                        
+                        'Twas a week chock-full of new things, experimentation, and triumph. I worked two full 8-hour days on Tuesday and Wednesday since I had no classes this week for gobble gobble day, and I feel like I got a LOT more accomplished than I normally would have during my usual 5 hour days. I mostly worked on finding ways to generate competency data from our EBNF grammar syntax rules, and I ended up finding this <a href="https://baturin.org/tools/bnfgen/">BNF generator</a> which takes input BNF grammars and generates random sentences based on the rules defined in the BNF grammar. I had to rework our original EBNF to turn it into functinal BNF for the client-side demo input, and once I got it working, it produced a lot of good instances of competency senteces!! I showed this to Tim and Alan, and we made some further adjustments to our original grammar rules to adjust it to what we need for Arjuna's competency data set. We found that in order to generate competencies that are more granular and filtered by domain scopes, we can avoid some illogical productions that would never actually occur in a real competency for the LMS. After I rewrite the umbrella modified_competency into separate competency definitions for each scope, all I need to do is find a way to implement this into code and generate the outputs. I tried to install the bnfgen as an npm module so that I could use their generator locally, but alas, I don't think the developers of that package worked out some major kinks in their bnfgen github repo - nothing worked, and everything threw bug errors. Not even their demo input worked when I ran it, so that was a big red flag. I'm better off just converting all of the end-terminal strings into XML, and then use XQuery to somehow apply our grammar rules to the end terminals and generate some fine-tuned competency string iterations.
                     </p>
-                    <p class="sig"></p>
+                    <p class="post">
+                        On the Javascript exploration side of things - we had our Wednesday software development training, and Alan helped me debug my album JSON library server post() request and my doesAlbumExist() function to check that the client isn't pushing duplicate albums into our library. And the post() method finally works! Now, using Postman to simulate client side server interactions, I can write new album data into the library! Woooo. Next, we are going to reconfigure the structure of this album server to emulate Arjuna's project structure by creating a Foxx layer to integrate document and edge collections of album data and album relationship data, which will help me conceptualize what the backend of Arjuna is like. 
+                    </p>
+                    <p class="post">
+                        And finally - if you haven't already noticed - my adventures into Javascript at Larson have led me into a JS-3D-exploration-extravaganza. I found something called Three.JS, which is an npm package module which allows you to create 3D environments using just plain-old javascript!! Pretty nifty eh? I'm definitely going to use this to implement my 3D Mayan relic objects from Blender into our DIGIT 400 project side.
+                    </p>
+
+                    <p class="sig">- Hardened Three.JS veteran</p>
                     </div>
                 
 
