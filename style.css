@@ -54,7 +54,7 @@ justify-content: center;
     /* HEADER */
     
     header {
-        background-image:radial-gradient(#4c5754, #99918f, #020202);
+        background-image:radial-gradient(#3a4558, #535e6dd8, #02020259);
         text-align:center;
        border-radius: 20px;
        padding: .5px;
@@ -98,6 +98,7 @@ justify-content: center;
         font-weight: bold;
         font-size: 1.5rem;
         background-color: silver;
+        background-image:radial-gradient(rgba(192, 192, 192, 0.39), rgba(129, 148, 148, 0.822) , silver);
         border-radius: 10px;
         color: black;
         padding-left: 25px;
