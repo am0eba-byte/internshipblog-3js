@@ -98,7 +98,7 @@ justify-content: center;
         font-weight: bold;
         font-size: 1.5rem;
         background-color: silver;
-        background-image:radial-gradient(rgba(192, 192, 192, 0.39), rgba(129, 148, 148, 0.822) , silver);
+        background-image:radial-gradient(rgb(192, 192, 192), rgba(129, 148, 148, 0.822) , #c0c0c0c2, rgba(192, 192, 192, 0.06));
         border-radius: 10px;
         color: black;
         padding-left: 25px;
