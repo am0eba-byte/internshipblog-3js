@@ -21,7 +21,7 @@ renderer.render(scene, camera);
 
 // Torus Points
 
-const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
+const geometry = new THREE.TorusGeometry(20, 3, 16, 100);
 // const material = new THREE.MeshPhongMaterial({ color: 0xff6347 });
 const material = new THREE.PointsMaterial({
   size: 0.005
