@@ -120,7 +120,7 @@ const meCube = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasi
 
 scene.add(meCube);
 
-meCube.position.z = 730
+meCube.position.z = 690
 meCube.position.x = 4
 meCube.position.y = 2
 
@@ -129,7 +129,7 @@ const meCube2 = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBas
 
 scene.add(meCube2)
 
-meCube2.position.z = 755
+meCube2.position.z = 715
 meCube2.position.x = -10
 meCube2.position.y = 0
 
@@ -258,7 +258,7 @@ const smile = new THREE.Mesh(new THREE.SphereGeometry(3, 32, 32),
 
 scene.add(smile);
 
-smile.position.z = 700;
+smile.position.z = 680;
 smile.position.x = -14;
 smile.position.y = 2;
 
