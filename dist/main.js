@@ -258,7 +258,7 @@ const smile = new THREE.Mesh(new THREE.SphereGeometry(3, 32, 32),
 
 scene.add(smile);
 
-smile.position.z = 680;
+smile.position.z = 660;
 smile.position.x = -14;
 smile.position.y = 2;
 
